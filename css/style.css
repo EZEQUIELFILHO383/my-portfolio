@@ -2,8 +2,8 @@
 /********** General CSS ***********/
 /**********************************/
 body {
-    color: #666666;
-    background: #00FFFF;
+    color: #7d8f8f;
+    background: #292e2e;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -15,7 +15,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #90EE90;
+    color: #7d8f8f;
     outline: none;
     text-decoration: none;
 }
@@ -47,7 +47,7 @@ a:focus {
     width: 100%;
     padding: 15px;
     float: left;
-    background: #00FFFF;
+    background: #292e2e;
 }
 
 .wrapper .sidebar-header,
@@ -76,7 +76,7 @@ a:focus {
 }
 
 .navbar-expand-md .navbar-nav .nav-link i {
-    color: #90EE90;
+    color: #FFD700;
     float: right;
     padding-top: 5px;
     transition: all .3s;
@@ -84,7 +84,7 @@ a:focus {
 
 .navbar-expand-md .navbar-nav .nav-link:hover,
 .navbar-expand-md .navbar-nav .nav-link.active {
-    color: #90EE90;
+    color: #FFD700;
 }
 
 .navbar-expand-md .navbar-nav .nav-link:hover i,
@@ -112,7 +112,7 @@ a:focus {
         content: "";
         width: 100%;
         height: 30px;
-        background: #00FFFF;
+        background: #292e2e;
         z-index: 1;
     }
     
@@ -208,7 +208,7 @@ a:focus {
         text-align: center;
         font-size: 18px;
         color: #222222;
-        background: #90EE90;
+        background: #FFD700;
     }
     
     .sidebar .sidebar-footer a:last-child {
@@ -216,7 +216,7 @@ a:focus {
     }
     
     .sidebar .sidebar-footer a:hover {
-        color: #90EE90;
+        color: #292e2e;
         background: #ffffff;
     }
     
@@ -285,7 +285,7 @@ a:focus {
 }
 
 .back-to-top i:hover {
-    color: #90EE90;
+    color: #292e2e;
 }
 
 .back-to-top {
@@ -319,7 +319,7 @@ a:focus {
 }
 
 .header p {
-    color: #90EE90;
+    color: #FFD700;
     font-size: 22px;
     font-weight: 600;
     margin-bottom: 10px;
@@ -350,14 +350,14 @@ a:focus {
 
 .large-btn .content-inner {
     font-size: 0;
-    border-bottom: 30px solid #00FFFF;
+    border-bottom: 30px solid #292e2e;
 }
 
 .large-btn .btn {
     position: relative;
     width: 50%;
     padding: 15px 0;
-    color: #90EE90;
+    color: #FFD700;
     font-size: 20px;
     background: #222222;
     border-radius: 0;
@@ -365,7 +365,7 @@ a:focus {
 
 .large-btn .btn:last-child {
     color: #222222;
-    background: #90EE90;
+    background: #FFD700;
 }
 
 .large-btn .btn i {
@@ -384,7 +384,6 @@ a:focus {
 
 .large-btn .btn:hover::after {
     width: 100%;
-    background: rgba(255, 255, 255, .1);
 }
 
 
@@ -414,7 +413,7 @@ a:focus {
     height: 3px;
     bottom: 0;
     left: 0;
-    background: #90EE90;
+    background: #FFD700;
 }
 
 
@@ -425,7 +424,7 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #00FFFF;
+    border-bottom: 30px solid #292e2e;
 }
 
 
@@ -443,12 +442,12 @@ a:focus {
 .about .btn {
     border-radius: 0;
     color: #222222;
-    background: #90EE90;
+    background: #FFD700;
     transition: all .3s;
 }
 
 .about .btn:hover {
-    color: #90EE90;
+    color: #FFD700;
     background: #222222;
 }
 
@@ -473,14 +472,14 @@ a:focus {
 
 .about .progress {
     height: 5px;
-    border: 1px solid #90EE90;
+    border: 1px solid #FFD700;
     border-radius: 0;
     background: #ffffff;
 }
 
 .about .progress .progress-bar {
     width: 1px;
-    background: #90EE90;
+    background: #FFD700;
     border-radius: 0;
     transition: 1s;
 }
@@ -493,15 +492,15 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #00FFFF;
+    border-bottom: 30px solid #292e2e;
 }
 
 .education .edu-col {
     position: relative;
     width: 100%;
     padding: 20px 0 20px 20px;
-    border-left: 1px solid #90EE90;
-    border-bottom: 1px solid #90EE90;
+    border-left: 1px solid #FFD700;
+    border-bottom: 1px solid #FFD700;
 }
 
 .education .col-md-6:first-child .edu-col {
@@ -538,14 +537,14 @@ a:focus {
     content: "";
     width: 11px;
     height: 11px;
-    background: #90EE90;
+    background: #FFD700;
     top: 5px;
     left: -26px;
     border-radius: 5px;
 }
 
 .education .edu-col span i {
-    color: #90EE90;
+    color: #FFD700;
 }
 
 .education .edu-col h3 {
@@ -566,15 +565,15 @@ a:focus {
     position: relative;
     padding: 60px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #00FFFF;
+    border-bottom: 30px solid #292e2e;
 }
 
 .experience .exp-col {
     position: relative;
     width: 100%;
     padding: 20px 0 20px 20px;
-    border-left: 1px solid #90EE90;
-    border-bottom: 1px solid #90EE90;
+    border-left: 1px solid #FFD700;
+    border-bottom: 1px solid #FFD700;
 }
 
 .experience .col-md-6:first-child .exp-col {
@@ -611,14 +610,14 @@ a:focus {
     content: "";
     width: 11px;
     height: 11px;
-    background: #90EE90;
+    background: #FFD700;
     top: 5px;
     left: -26px;
     border-radius: 5px;
 }
 
 .experience .exp-col span i {
-    color: #90EE90;
+    color: #FFD700;
 }
 
 .experience .exp-col h3 {
@@ -653,7 +652,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #00FFFF;
+    border-bottom: 30px solid #292e2e;
 }
 
 .service .srv-col {
@@ -664,7 +663,7 @@ a:focus {
 
 .service .srv-col i {
     font-size: 30px;
-    color: #90EE90;
+    color: #FFD700;
     margin-bottom: 15px;
 }
 
@@ -700,7 +699,7 @@ a:focus {
     position: relative;
     padding: 60px 30px 30px 30px;
     background: #ffffff;
-    border-bottom: 30px solid #00FFFF;
+    border-bottom: 30px solid #292e2e;
 }
 
 .portfolio #portfolio-flters {
@@ -720,14 +719,14 @@ a:focus {
     font-size: 13px;
     line-height: 15px;
     text-transform: uppercase;
-    border: 1px solid #90EE90;
+    border: 1px solid #FFD700;
     background: #ffffff;
     transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-    background: #90EE90;
+    background: #FFD700;
     color: #222222;
 }
 
@@ -767,7 +766,7 @@ a:focus {
     text-align: center;
     width: 45px;
     height: 35px;
-    background: #90EE90;
+    background: #FFD700;
     transition: 0.2s linear;
 }
 
@@ -785,7 +784,7 @@ a:focus {
 
 .portfolio .portfolio-item figure .link-preview:hover i,
 .portfolio .portfolio-item figure .link-details:hover i {
-    color: #90EE90;
+    color: #FFD700;
 }
 
 .portfolio .portfolio-item figure .link-preview {
@@ -809,7 +808,7 @@ a:focus {
     color: #222222;
     font-size: 16px;
     font-weight: 600;
-    background: #90EE90;
+    background: #FFD700;
     border-radius: 0;
 }
 
@@ -847,7 +846,7 @@ a:focus {
 .review {
     position: relative;
     background: #ffffff;
-    border-bottom: 30px solid #00FFFF;
+    border-bottom: 30px solid #292e2e;
 }
 
 .review .content-inner {
@@ -890,7 +889,7 @@ a:focus {
 }
 
 .review .review-text .ratting i {
-    color: #90EE90;
+    color: #FFD700;
     font-size: 14px;
 }
 
@@ -941,7 +940,7 @@ a:focus {
 .review-slider .slick-prev:focus::before,
 .review-slider .slick-next:hover::before,
 .review-slider .slick-next:focus::before {
-    color: #90EE90;
+    color: #FFD700;
 }
 
 .review-slider .slick-prev::before,
@@ -970,7 +969,7 @@ a:focus {
 }
 
 .review-slider .slick-dots li.slick-active button:before {
-    color: #90EE90;
+    color: #FFD700;
 }
 
 .review-slider.slick-slider {
@@ -1002,7 +1001,7 @@ a:focus {
 
 .contact .contact-info p i {
     width: 25px;
-    color: #90EE90;
+    color: #FFD700;
 }
 
 .contact .contact-info p a {
@@ -1010,7 +1009,7 @@ a:focus {
 }
 
 .contact .contact-info p a:hover {
-    color: #90EE90;
+    color: #FFD700;
     text-decoration: none;
 }
 
@@ -1023,7 +1022,7 @@ a:focus {
     height: 35px;
     padding: 5px 0;
     color: #222222;
-    background: #90EE90;
+    background: #FFD700;
     border-radius: 0;
     margin-top: 15px;
     margin-right: 15px;
@@ -1035,7 +1034,7 @@ a:focus {
 }
 
 .contact .social a:hover {
-    color: #90EE90;
+    color: #FFD700;
     background: #222222;
 }
 
@@ -1051,18 +1050,18 @@ a:focus {
 
 .contact .form .form-control:focus {
     box-shadow: none;
-    border-color: #90EE90;
+    border-color: #FFD700;
 }
 
 .contact .form .btn {
     color: #222222;
-    background: #90EE90;
+    background: #FFD700;
     border-radius: 0;
     transition: all .3s;
 }
 
 .contact .form .btn:hover {
-    color: #90EE90;
+    color: #FFD700;
     background: #222222;
 }
 
@@ -1074,7 +1073,7 @@ a:focus {
     position: relative;
     width: 100%;
     padding: 30px 30px 0 30px;
-    background: #00FFFF;
+    background: #292e2e;
 }
 
 .footer .col-md-6:last-child {
@@ -1089,7 +1088,7 @@ a:focus {
 }   
 
 .footer p {
-    color: #222222;
+    color: #ffffff;
     margin: 0;
 }
 
@@ -1099,6 +1098,6 @@ a:focus {
 }
 
 .footer a:hover {
-    color: #222222;
+    color: #FFD700;
 }
 
